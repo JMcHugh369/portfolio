@@ -1,0 +1,221 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Joscelyn McHugh | A recent computer science graduate with a passion for technology
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Joscelyn McHugh</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A recent Computer Science Graduate based in Greensboro, NC</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>GrungHaven Tavern -- Capstone Project</h3>
+              <p>
+                I worked on a team project to build a Dungeons & Dragons-inspired desktop application using Python Flask, React, and WebSockets. I developed the backend and implemented full front-to-back and back-to-front communication, enabling real-time multiplayer features like character management and live game updates.
+              </p>
+              <ul class="work__list">
+                <li>Python/Flask</li>
+                <li>JavaScript/Websockets/React</li>
+                <li>SCSS</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/JMcHugh369/sample1/tree/newBranch" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/Picture1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>RockAuto 2.0</h3>
+              <p>
+                RockAuto 2.0 is a Laravel-based web application for a simple online car parts shop. It allows users to browse products and add items to a cart, with cart details saved using cookies to maintain session state without requiring authentication.
+              </p>
+              <ul class="work__list">
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>HTML/CSS</li>
+                <li>SQL</li>
+                <li>Postgres</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/JMcHugh369/RockAuto2.0" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/rockauto.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>RoBERTa Essay Classifier</h3>
+              <p>
+                The RoBERTa Essay Classifier is a machine learning project that uses the RoBERTa transformer model to analyze and classify essays based on their content and quality. It demonstrates natural language processing techniques to provide automated evaluation and categorization of student written essays.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Tensorflow</li>
+                <li>RoBERTa</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://uncg-my.sharepoint.com/:f:/g/personal/jrmchugh_uncg_edu/EkIJRp3WrWBLgOGLffOdT4UBXiuBaR3LpNbJtiYYe7IliQ?e=oIYGkU" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/972295f6-1eb9-48bd-ad30-807605e6a379.jpg" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+             Hi, I’m Joscelyn! I’m a curious and motivated learner exploring different areas in tech. While I’m not focused on web development specifically, I enjoy solving problems, learning new tools, and working on creative projects. I’m open to any entry-level tech opportunities where I can grow, contribute, and keep learning. Outside of tech, I love picking up new skills just for fun and connecting with people along the way.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="./images/Resume-05-28 (1).pdf" class="btn" target="_blank" rel="noopener">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/jarvis.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Whether you have a question, need some help with a tech project, want to share advice, or just feel like saying “Hi 👋”—I’d love to hear from you. 
+          I’m always open to learning something new, exploring opportunities, and chatting about all things tech.
+          The fastest way to reach me is through email. 
+          I’ll do my best to get back to you soon. 😊
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:mcjoscelyn@gmail.com" class="btn">mcjoscelyn@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/JMcHugh369?tab=overview&from=2025-06-01&to=2025-06-10" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/joscelyn-m/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
